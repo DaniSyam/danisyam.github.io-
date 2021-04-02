@@ -1,0 +1,22 @@
+{
+  "name": "danisyam.github.io",
+  "version": "1.0.0",
+  "description": "This is my portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "status": "git status",
+    "add": "git add .",
+    "commit": "git commit -a",
+    "push": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaniSyam/danisyam.github.io.git"
+  },
+  "author": "Dani Syam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaniSyam/danisyam.github.io/issues"
+  },
+  "homepage": "https://github.com/DaniSyam/danisyam.github.io#readme"
+}

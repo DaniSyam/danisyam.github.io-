@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+}
+
+nav {
+  background-color: #255c97;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1.5em;
+  .brand {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Orbitron", sans-serif;
+  }
+  ul {
+    padding: 0.5em;
+    a {
+      color: whitesmoke;
+      text-decoration: none;
+      margin: 0 1em;
+    }
+    a:hover {
+      color: yellow;
+      text-decoration: underline;
+    }
+  }
+}
+
+.active-link {
+  color: yellow;
+}
